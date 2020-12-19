@@ -43,7 +43,7 @@ console.log(yoid()) // jta8tgxroo
 
 ### Demo
 
-[Demo](https://codesandbox.io/s/intelligent-ramanujan-rxo6v?file=/src/styles.css) on CodeSandbox.
+[Demo](https://codesandbox.io/s/intelligent-ramanujan-rxo6v) on CodeSandbox.
 
 ## License
 
