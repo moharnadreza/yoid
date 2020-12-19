@@ -1,0 +1,63 @@
+{
+  "name": "yoid",
+  "version": "0.1.0",
+  "description": "Plain id generator.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/yoid.esm.js",
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": "Mohammadreza Ziadzadeh <moharnadreza@gmail.com>",
+  "homepage": "https://github.com/moharnadreza/yoid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moharnadreza/yoid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moharnadreza/yoid/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "id",
+    "simpleid",
+    "idgenerator"
+  ],
+  "size-limit": [
+    {
+      "path": "dist/yoid.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/yoid.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^4.9.1",
+    "husky": "^4.3.6",
+    "size-limit": "^4.9.1",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  }
+}
