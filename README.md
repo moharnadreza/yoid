@@ -16,9 +16,6 @@
   <a href="https://bundlephobia.com/result?p=yoid@1.0.0" target="_blank">
   <img src="https://img.shields.io/bundlephobia/minzip/yoid/1.0.0?color=%23165be4">
   </a>
-  <a href="https://twitter.com/moharnadreza" target="_blank">
-  <img src="https://img.shields.io/twitter/follow/moharnadreza?label=Follow&style=social"  />
-  </a>
 </p>
 
 ## Get started
