@@ -1,7 +1,6 @@
 {
   "name": "yoid",
-  "version": "1.0.0",
-  "description": "Plain id generator 🦄",
+  "description": "Plain ID generator.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/yoid.esm.js",
